@@ -1,0 +1,279 @@
+#other1{
+    height: 94px;
+    background-color: rgb(245,245,245);
+}
+#other1-1{
+    list-style: none;
+}
+#other1-2{
+    float: left;
+    width: 220px;
+    height: 54px;
+    margin-left: 95px;
+    margin-top: 20px;
+    background-image: url(../images/slogen1.png);
+}
+#other1-3{
+    float: left;
+    width: 220px;
+    height: 54px;
+    margin-left: 95px;
+    margin-top: 20px;
+    background-image: url(../images/slogen2.png);
+}
+#other1-4{
+    float: left;
+    width: 220px;
+    height: 54px;
+    margin-left: 95px;
+    margin-top: 20px;
+    background-image: url(../images/slogen3.png);
+}
+#other1-5{
+    float: left;
+    width: 220px;
+    height: 54px;
+    margin-left: 95px;
+    margin-top: 20px;
+    background-image: url(../images/slogen4.png);
+}
+#other2{
+    height: 180px;
+    margin-top: 20px;
+    position: relative;
+}
+#other2-1{
+    list-style: none;
+}
+#other2-2{
+    width: 199px;
+    height: 36px;
+    float: left;
+    margin-left: 80px;
+    line-height: 36px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.5);
+}
+#other2-3{
+     width: 199px;
+     height: 36px;
+     float: left;
+     line-height: 36px;
+     font-weight: 600;
+     color:rgba(0,0,0,0.5);
+ }
+#other2-4{
+    width: 199px;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.5);
+}
+#other2-5{
+    width: 199px;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.5);
+}
+#other2-6{
+    width: 199px;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.5);
+}
+#other3{
+    width: 199px;
+    height: 120px;
+    list-style: none;
+    margin-left: 80px;
+    position: absolute;
+    top: 40px;
+}
+#other3 div{
+    width: 199px;
+    height: 20px;
+}
+#other3 div a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.5);
+}
+#other3 div a:hover{
+    color: brown;
+}
+#other4{
+    width: 199px;
+    height: 120px;
+    list-style: none;
+    margin-left: 279px;
+    position: absolute;
+    top: 40px;
+}
+#other4 div{
+    width: 199px;
+    height: 20px;
+}
+#other4 div a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.5);
+}
+#other4 div a:hover{
+    color: brown;
+}
+#other5{
+    width: 199px;
+    height: 120px;
+    list-style: none;
+    margin-left: 478px;
+    position: absolute;
+    top: 40px;
+}
+#other5 div{
+    width: 199px;
+    height: 20px;
+}
+#other5 div a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.5);
+}
+#other5 div a:hover{
+    color: brown;
+}
+#other6{
+    width: 199px;
+    height: 120px;
+    list-style: none;
+    margin-left: 677px;
+    position: absolute;
+    top: 40px;
+}
+#other6 div{
+    width: 199px;
+    height: 20px;
+}
+#other6 div a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.5);
+}
+#other6 div a:hover{
+    color: brown;
+}
+#other7{
+    width: 199px;
+    height: 120px;
+    list-style: none;
+    margin-left: 876px;
+    position: absolute;
+    top: 40px;
+}
+#other7 div{
+    width: 199px;
+    height: 20px;
+}
+#other7 div a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.5);
+}
+#other7 div a:hover{
+    color: brown;
+}
+#other8{
+    width: 203px;
+    height: 169px;
+    margin-left: 1075px;
+    background-image: url(../images/china.png);
+    background-position: 0 -131px;
+}
+#other8-1{
+    margin-left: 20px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.5);
+}
+#other8 p{
+    font-size: 13px;
+    color:rgba(0,0,0,0.5);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#other8 a{
+    text-decoration: none;
+    font-size: 13px;
+    color:rgba(0,0,0,0.5);
+    margin-left: 140px;
+    margin-top: 50px;
+}
+#other8 a:hover{
+    color: brown;
+}
+hr{
+    width: 90%;
+    margin-left:5%;
+    color:rgba(0,0,0,0.2);
+}
+#other9{
+    width: 1210px;
+    height: 18px;
+    margin-left: 215px;
+}
+#other9 ul{
+    list-style: none;
+}
+#other9 ul li{
+    float: left;
+}
+#other9 ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    width: 70px;
+    color:rgba(0,0,0,0.5);
+}
+#other9 #other9-1 a{
+    width: 100px;
+}
+#other9 ul li a:hover{
+    color: brown;
+}
+#other10{
+    width: 1210px;
+    height: 32px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#other10 ul{
+    list-style: none;
+    margin-left: 28%;
+}
+#other10 ul li{
+    width: 103px;
+    height: 32px;
+    float: left;
+    margin-left: 20px;
+}
+#other10 ul li a{
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+}
+#other10 #other10-1 a{
+    background: url(../images/mess.png) no-repeat;
+
+}
+#other10 #other10-2 a{
+    background: url(../images/mess2.png)  no-repeat;
+}
+#other10 #other10-3 a{
+    background: url(../images/mess3.png) no-repeat;
+}
+#other10 #other10-4 a{
+    background: url(../images/mess4.png) no-repeat;
+}

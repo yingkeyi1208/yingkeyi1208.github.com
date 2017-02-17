@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body onload="zdy()">
+<p align="center"><canvas id="canvas" style="background-color: aqua" width="400px" height="600px"></canvas></p>
+</body>
+</html>
+<script>
+    var context;
+    var cwidth = 400; //画布的宽度
+    var cheight = 600; //画布的高度
+    function Bg(x,y,width,height,src){
+        this.x=x;
+        this.y=y;
+        this.width=width;
+        this.height=height;
+        var image=new Image();
+        image.src=src;
+        this.image=image;
+        this.draw=function(){
+            context.drawImage(this.image, this.x, this.y, this.width, this.height)
+        }
+
+
+    }
+    var bg=new Bg(0,0,cwidth,cheight,"bg.png");
+    function yxhs(){
+        bg.draw();
+    }
+
+    function zdy(){
+        var canvas=document.getElementById("canvas");
+        context=canvas.getContext("2d");
+        yxhs();
+    }
+
+
+</script>

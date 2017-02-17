@@ -1,0 +1,48 @@
+#foot{
+    height: 184px;
+    margin-top: 10px;
+}
+#foot1{
+    width: 210px;
+    height: 150px;
+    margin-left: 80px;
+}
+#foot1 a{
+    width: 210px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(../images/night.jpg);
+}
+#foot2{
+    height: 164px;
+    margin-left: 290px;
+    margin-top: -150px;
+}
+#foot2-1{
+    list-style: none;
+}
+#foot2-1 li{
+    width: 250px;
+    height: 164px;
+    float: left;
+    border-right:1px solid white;
+}
+#foot2-1 li a{
+    width: 250px;
+    height: 164px;
+    display: inline-block;
+    text-decoration: none;
+}
+#foot2-1 li #foot2-1-1{
+    background-image: url(../images/1.jpg);
+}
+#foot2-1 li #foot2-1-2{
+    background-image: url(../images/2.jpg);
+}
+#foot2-1 li #foot2-1-3{
+    background-image: url(../images/3.jpg);
+}
+#foot2-1 li #foot2-1-4{
+    background-image: url(../images/4.jpg);
+}
+

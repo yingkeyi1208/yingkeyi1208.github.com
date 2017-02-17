@@ -1,0 +1,338 @@
+#body1{
+    height: 44px;
+    border-bottom: 2px solid rgb(182, 29, 29);
+}
+#body1-2{
+    width: 210px;
+    height: 44px;
+    background-color: rgb(182, 29, 29);
+    margin-left: 80px;
+}
+#body1-3{
+    width: 16px;
+    height: 17px;
+    margin-left: 365px;
+    margin-top: -45px;
+    background-image: url(../images/new.jpg);
+}
+#body1-4{
+    width: 16px;
+    height: 17px;
+    margin-left:770px;
+    margin-top: -17px;
+    background-image: url(../images/new.jpg);
+}
+
+#body1 #body1-1{
+    width: 210px;
+    height: 44px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 44px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
+}
+#body2{
+    list-style: none;
+    width: 1000px;
+    height: 44px;
+    margin-left: 290px;
+    margin-top: -44px;
+}
+#body2 li{
+    float: left;
+}
+#body2-1 a,#body2-2 a,#body2-5 a{
+    display: inline-block;
+    width: 88px;
+    height: 44px;
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+    color: black;
+}
+#body2-3 a{
+    display: inline-block;
+    width: 104px;
+    height: 44px;
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+    color: black;
+}
+#body2-4 a,#body2-6 a,#body2-7 a,#body2-8 a,#body2-9 a{
+    display: inline-block;
+    width: 72px;
+    height: 44px;
+    text-decoration: none;
+    line-height: 44px;
+    text-align: center;
+    color: black;
+}
+#body2 a:hover{
+    color: red;
+}
+#body2-10{
+    width: 144px;
+    height: 44px;
+    margin-left: 1200px;
+    margin-top: -44px;
+}
+#body2-10 a{
+    display: inline-block;
+    width: 144px;
+    height: 44px;
+    background-image: url("../images/bike.jpg");
+}
+#body3{
+    height: 466px;
+}
+#body3-1 {
+    width: 1210px;
+    height: 466px;
+    margin-left: 80px;
+}
+#body3-2{
+    list-style: none;
+}
+#body3-2 li{
+    display: block;
+    width: 210px;
+    height: 31px;
+    background-color: rgb(200, 22, 35);
+}
+#body3-2 li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 185px;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+#body3-2 li a div{
+    width: 7px;
+    height: 9px;
+    background-image: url("../images/4.png");
+    float: right;
+    margin-top: 11px;
+}
+#body3-3 #body3-3-1{
+    width: 730px;
+    height: 454px;
+    margin-left: 300px;
+    margin-top: -454px;
+    background: url(../images/slider1.jpg) no-repeat;
+    display: block;
+}
+#body3-4{
+    width: 120px;
+    height: 20px;
+    margin-left: 600px;
+    margin-top: -20px;
+}
+#body3-5{
+    width: 120px;
+    height: 20px;
+    list-style: none;
+}
+#body3-5 li {
+    float: left;
+}
+#body3-5 li a{
+    width: 18px;
+    height: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border-radius: 9px;
+    text-align: center;
+    margin-right: 2px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+}
+#body3-5 #body3-5-1 a{
+    background-color: red;
+}
+#body3-6{
+    width: 248px;
+    height: 33px;
+    margin-left: 1040px;
+    margin-top: -454px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-bottom: none;
+}
+#body3-6 h3{
+    line-height: 33px;
+    margin-left: 10px;
+    font-weight: 200;
+}
+#body3-6-1{
+    width: 38px;
+    height: 32px;
+    margin-left: 190px;
+    margin-top: -32px;;
+}
+#body3-6-1 a{
+    width: 38px;
+    height: 32px;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 32px;
+    color: black;
+}
+#body3-6-1 a:hover{
+    color: red;
+}
+#body3-7{
+    width: 248px;
+    height: 125px;
+    margin-left: 1040px;
+    border-left:1px solid rgba(0,0,0,0.2);
+    border-right:1px solid rgba(0,0,0,0.2);
+    border-top:1px dotted rgba(0,0,0,0.2);
+}
+#body3-8{
+    width: 233px;
+    height: 120px;
+    list-style: none;
+    margin-left: 10px;
+}
+#body3-8 li{
+    width: 248px;
+    height: 24px;
+}
+#body3-8 li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+#body3-8 li a:hover{
+    color: red;
+}
+#body3-8 li a span{
+    font-weight: 800;
+}
+#body3-9{
+    width: 248px;
+    height: 207px;
+    margin-left: 1040px;
+}
+#body3-10 {
+    border-collapse:collapse;
+}
+#body3-10 th{
+    border:1px solid rgba(0,0,0,0.2);
+}
+#body3-10 a{
+    width: 61px;
+    height: 69px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+#body3-10 a span{
+   display: block;
+    margin-top:45px;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+}
+#body3-10 a span:hover{
+    color: red;
+}
+#body3-10 a #body3-10-1{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/5.png");
+    margin-bottom:-45px;
+
+}
+#body3-10 a #body3-10-2{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/6.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-3{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/7.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-4{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/8.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-5{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/9.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-6{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/10.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-7{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/11.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-8{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/12.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-9{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/13.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-10{
+    width:60px;
+    height: 45px;
+    background-image: url("../images/14.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-11{
+    width: 60px;
+    height: 45px;
+    background-image: url("../images/15.png");
+    margin-bottom:-45px;
+}
+#body3-10 a #body3-10-12{
+    width: 60px;
+     height: 45px;
+     background-image: url("../images/16.png");
+     margin-bottom:-45px;
+ }
+#body3-11{
+    width: 251px;
+    height: 77px;
+    margin-left: 1040px;
+    margin-top: 11px;
+}
+#body3-11 a{
+    display: inline-block;
+    background-image: url(../images/17.png);
+    width: 251px;
+    height: 77px;
+}
+
+
+
+
+
+
+

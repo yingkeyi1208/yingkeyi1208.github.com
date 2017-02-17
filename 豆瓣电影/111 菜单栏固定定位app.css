@@ -1,0 +1,9 @@
+.siderbar{
+    padding: 5px;
+    padding-top: 20px;
+    height: 100%;
+    /*position: fixed;*/    /* 固定定位脱标 */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    z-index: 1000;
+}

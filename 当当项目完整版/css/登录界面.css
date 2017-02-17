@@ -1,0 +1,278 @@
+@charset "UTF-8";
+.w{
+    width: 867px;
+    margin: 0 auto;
+}
+body{
+    background-color: #f6f9fb;
+}
+/*logo开始*/
+.header{
+    margin-top: 30px;
+    /*width: 865px;*/
+    /*height: 124px;*/
+}
+.header .logo_l{
+}
+.header .logo_l h2{
+    text-indent: -999em;
+}
+.header .logo_l img{
+    margin: 7px 0 0 13px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+.header .logo_r{
+    width: 192px;
+    height: 66px;
+}
+.header .logo_r img{
+    margin-top: 14px;
+}
+.header .logo_r ul{
+
+}
+.header .logo_r ul li{
+    float: left;
+    width: 48px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+.header .logo_r ul li a{
+    font-family: "微软雅黑";
+    color: #787878;
+}
+.header .logo_r ul li a:hover{
+    text-decoration: underline;
+}
+/*logo结束*/
+
+/*警告开始*/
+.warm{
+}
+.warm_box{
+    /*width: 504px;*/
+    margin-top: 20px;
+    height: 26px;
+    float: right;
+    position: relative;
+}
+.warm_box img{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.warm_box p{
+    padding: 1px 0  1px 24px;
+    width: 480px;
+    height: 24px;
+    float: right;
+    line-height: 24px;
+    background-color: #fef7f5;
+    font-family: "微软雅黑";
+    border: 1px solid #ff7e6c;
+}
+.warm_box p span{
+    color: blue;
+}
+/*警告结束*/
+
+/*登录开始*/
+.content{
+}
+.content .login{
+    width: 825px;
+    height: 384px;
+    background-color: #ffffff;
+    padding: 21px 16px;
+    border: 1px solid #fef7f5;
+}
+/*登录左侧开始*/
+.content .login .login_l{
+
+}
+.content .login .login_l img{
+    cursor: pointer;
+}
+/*登录左侧结束*/
+
+/*登录右侧开始*/
+.content .login .login_r{
+    width: 311px;
+    position: relative;
+}
+.content .login .login_r .input1{
+    width: 270px;
+    height: 34px;
+    border: 1px solid #e6e6e6;
+    margin-top: 32px;
+    color: #b0b0b0;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    padding-left: 41px;
+}
+.content .login .login_r .input2{
+    width: 270px;
+    height: 34px;
+    border: 1px solid #e6e6e6;
+    color: #b0b0b0;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    padding-left: 41px;
+}
+.content .login .login_r div{
+    width: 270px;
+    height: 32px;
+    padding-left: 10px;
+    font-family: "微软雅黑";
+    line-height: 32px;
+}
+.content .login .login_r div p{
+    /*width: 270px;*/
+    /*height: 32px;*/
+    /*padding-left: 10px;*/
+    /*font-family: "微软雅黑";*/
+    /*line-height: 32px;*/
+}
+.content .login .login_r .img1{
+    position: absolute;
+    left: 6px;
+    top: 36px;
+}
+.content .login .login_r .img2{
+    position: absolute;
+    left: 6px;
+    top: 103px;
+}
+/*登录右侧结束*/
+
+/*验证码开始*/
+.content .login .itcode{
+    /*margin-top: 30px;*/
+    width: 300px;
+    height: 65px;
+    border: 1px solid #e6e6e6;
+    padding: 5px 5px 0 5px;
+    background-color: #f6f9fb;
+    position: relative;
+}
+.content .login .itcode p{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    padding-left: 8px;
+}
+.content .login .itcode .img1{
+    width: 200px;
+    /*height: 44px;*/
+    margin: 0px auto;
+}
+.content .login .itcode .img2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+/*验证码结束*/
+
+/*checkbox开始*/
+.content .login .c_box{
+    width: 311px;
+    margin-top: 20px;
+}
+.content .login .c_box .span1{
+    display: block;
+}
+.content .login .c_box .span1 span{
+}
+.content .login .c_box .span2{
+}
+.content .login .c_box .span2 a{
+    color: #603cff;
+}
+.content .login .c_box .span2 a:hover{
+    text-decoration: underline;
+}
+/*checkbox结束*/
+
+/*登录按钮开始*/
+.content .login .btn_login{
+    margin-top: 8px;
+}
+.content .login .btn_login input{
+    width: 310px;
+    height: 44px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ff2832;
+    font-size: 22px;
+}
+.content .login .btn_login input:hover{
+    background-color: red;
+}
+/*登录按钮结束*/
+
+/*合作网站开始*/
+.content .login .partner{
+    width: 311px;
+    margin-top: 12px;
+    /*margin-left: 36px;*/
+}
+.content .login .partner .p_one{
+}
+.content .login .partner .p_one span{
+    font-family: "微软雅黑";
+}
+.content .login .partner .p_one a{
+    color: #787878;
+    font-family: "微软雅黑";
+}
+.content .login .partner .p_two{
+    position: relative;
+}
+.content .login .partner .p_two img{
+    cursor: pointer;
+}
+.content .login .partner .p_two span{
+    width: 37px;
+    height: 25px;
+    color: #c5c5c5;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    cursor: pointer;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+}
+.content .login .partner .p_two s{
+    width: 10px;
+    height: 5px;
+    overflow: hidden;
+    position: absolute;
+    left: 134px;
+    top: 10px;
+}
+.content .login .partner .p_two s i{
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+/*合作网站结束*/
+/*登录结束*/
+
+.footer{
+    margin-top: 50px;
+}
+.footer p{
+    text-align: center;
+}
+.footer .img{
+    margin: 10px 300px;
+    cursor: pointer;
+}

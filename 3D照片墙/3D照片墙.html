@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D照片墙</title>
+    <style>
+        .photo-wall-3D{
+            margin: 0px 450px;
+        }
+        .stage{
+            perspective: 2500px;/* 为了给视觉一个近大远小的效果 */
+        }
+        .contains{
+            transform-style: preserve-3d;/* 开启一个3D空间 */
+            width: 400px;/* 为了让图片围绕一个固定的中心旋转，所以设置盒子的宽度和图片的宽度一致。 */
+            position: absolute;/* 为了给开启的3D空间一个俯视的视觉效果（即看到正前面的图片时也可以看到其正后面的图片这样一个3D效果）配合使用下面的top属性。 */
+            top: 200px;
+            /*height: 100px;*/  /* 为了给视觉造成俯视图片的效果，如果高度过高，中心旋转点就会下降，那么就会造成仰视图片的效果。如果设置了 position: absolute; 这个属性，就脱标了，高度就不再影响中心旋转点。 */
+            /*background-color: yellow;*/
+            animation: rotate3D 15s infinite;
+        }
+        img{
+            width: 400px;
+            position: absolute;/* 为了让多张图片重叠在一起 */
+        }
+        @keyframes rotate3D {
+            16.7%{
+                transform: rotateY(60deg);
+            }
+            33.3%{
+                transform: rotateY(120deg);
+            }
+            50%{
+                transform: rotateY(180deg);
+            }
+            66.7%{
+                transform: rotateY(240deg);
+            }
+            83.3%{
+                transform: rotateY(300deg);
+            }
+            100%{
+                transform: rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="photo-wall-3D">
+    <div class="stage">
+        <div class="contains">
+            <img src="images/05.jpg" alt="" style="transform: rotateY(0deg) translateZ(450px)"/>
+            <img src="images/06.jpg" alt="" style="transform: rotateY(60deg) translateZ(450px)"/>
+            <img src="images/07.jpg" alt="" style="transform: rotateY(120deg) translateZ(450px)"/>
+            <img src="images/08.jpg" alt="" style="transform: rotateY(180deg) translateZ(450px)"/>
+            <img src="images/09.jpg" alt="" style="transform: rotateY(240deg) translateZ(450px)"/>
+            <img src="images/10.jpg" alt="" style="transform: rotateY(300deg) translateZ(450px)"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
